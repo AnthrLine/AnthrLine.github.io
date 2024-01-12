@@ -2,8 +2,8 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
+    {%- if site.avatar != empty and site.avatar -%}
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
-      {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
           {% include img-url.html src=site.avatar %}
         {%- endcapture -%}
@@ -59,7 +59,7 @@
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
-        {% when 'email' %}
+        {% when 'memail' %}
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
