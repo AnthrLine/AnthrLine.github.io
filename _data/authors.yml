@@ -6,6 +6,10 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+<author_id>:
+  name: Alan Mena
+
+
 cotes:
   name: Cotes Chung
   twitter: cotes2020
