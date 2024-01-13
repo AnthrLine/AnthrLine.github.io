@@ -40,10 +40,10 @@ social:
   email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://mastodont.cat/@alanmena
+    - https://twitter.com/alanmenac # change to your twitter homepage
+    - https://github.com/anthrline # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
@@ -51,8 +51,6 @@ google_site_verification: # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
